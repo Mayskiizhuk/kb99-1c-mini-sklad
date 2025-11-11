@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.19">
+	<Item id="1f5bd370-31e3-4578-bfbd-ab0557b76d6a">
+		<Name>ПродовольственныеТовары</Name>
+		<Code>000000001</Code>
+		<Description>Продовольственные товары</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3bb648f7-ab81-4ba5-bba3-44c331cdfe8c">
+		<Name>ХозяйственныеТовары</Name>
+		<Code>000000002</Code>
+		<Description>Хозяйственные товары</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
