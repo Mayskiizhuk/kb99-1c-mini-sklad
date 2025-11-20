@@ -67,6 +67,11 @@
 				<ContextMenu name="ТоварыУправлениеПоискомКонтекстноеМеню" id="24"/>
 				<ExtendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="25"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="OnActivateRow">ТоварыПриИзменении</Event>
+				<Event name="OnActivateField">ТоварыПриИзменении</Event>
+				<Event name="OnChange">ТоварыПриИзменении</Event>
+			</Events>
 			<ChildItems>
 				<LabelField name="ТоварыНомерСтроки" id="26">
 					<DataPath>Объект.Товары.LineNumber</DataPath>
@@ -124,4 +129,18 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.Остатки.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>1:0af800d1-fbd7-4e37-a485-db2706724006</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
 </Form>

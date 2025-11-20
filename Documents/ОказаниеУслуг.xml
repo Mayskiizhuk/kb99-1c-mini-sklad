@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Document uuid="10f2d14f-e31e-4fff-bb99-cf4367cadc7a">
+	<Document uuid="1d647a19-ff26-43a5-a4bb-f84e934bcbd5">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.Реализация" category="Object">
-				<xr:TypeId>e774a447-3212-4934-9105-39a8d891a426</xr:TypeId>
-				<xr:ValueId>e7bfb1b1-a0f1-424e-8e49-05645bc65ee5</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ОказаниеУслуг" category="Object">
+				<xr:TypeId>92ba01cb-ae97-4b53-a161-96c68a6590b9</xr:TypeId>
+				<xr:ValueId>79095178-a333-47bb-82a8-41381d36f067</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.Реализация" category="Ref">
-				<xr:TypeId>60977ca4-0836-4672-9233-45d5b1255068</xr:TypeId>
-				<xr:ValueId>a3679427-7d9d-4027-b1ee-ad29050092f8</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ОказаниеУслуг" category="Ref">
+				<xr:TypeId>68b6a45e-6f49-4270-bb86-649446869b07</xr:TypeId>
+				<xr:ValueId>a33e0844-9dbe-4017-bd79-b29b950aee6e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.Реализация" category="Selection">
-				<xr:TypeId>5aeb092c-1c6b-4a03-a5c9-7507dfed8994</xr:TypeId>
-				<xr:ValueId>0c555ed8-5973-41dd-825c-68a351e2ce60</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ОказаниеУслуг" category="Selection">
+				<xr:TypeId>61e28523-7100-4cf1-b552-dbe24c73c918</xr:TypeId>
+				<xr:ValueId>f1e5f543-bf85-45db-bef5-4bbe8fa61bc2</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.Реализация" category="List">
-				<xr:TypeId>ea97af33-357d-4832-b389-359be809e277</xr:TypeId>
-				<xr:ValueId>c5eb7a9d-3061-4c37-9612-ed27112681f3</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ОказаниеУслуг" category="List">
+				<xr:TypeId>cf5d02dc-bbff-45cd-b74f-2c3f56e7d46d</xr:TypeId>
+				<xr:ValueId>00f4430d-3af3-4a95-83a9-33bd22c3ec16</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.Реализация" category="Manager">
-				<xr:TypeId>b58119f2-68e9-42bb-b7aa-0cbe26714034</xr:TypeId>
-				<xr:ValueId>b89c2dbb-9361-433c-b6c0-af727b2b39c8</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ОказаниеУслуг" category="Manager">
+				<xr:TypeId>bd7b4abb-d0ea-4551-af79-7f25fc88a57b</xr:TypeId>
+				<xr:ValueId>84167743-0e5b-4ab1-8a94-81b6466c7963</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Реализация</Name>
+			<Name>ОказаниеУслуг</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Реализация</v8:content>
+					<v8:content>Оказание услуг</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -43,13 +43,13 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.Реализация.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ОказаниеУслуг.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Document.Реализация.Form.ФормаДокумента</DefaultObjectForm>
+			<DefaultObjectForm>Document.ОказаниеУслуг.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -61,7 +61,7 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Остатки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПродажиУслуг</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
@@ -69,14 +69,14 @@
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation/>
-			<ExtendedObjectPresentation/>
-			<ListPresentation>
+			<ObjectPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Список реализаций</v8:content>
+					<v8:content>ОказаниеУслуги</v8:content>
 				</v8:item>
-			</ListPresentation>
+			</ObjectPresentation>
+			<ExtendedObjectPresentation/>
+			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
@@ -85,13 +85,13 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="e5cf4eee-d451-48da-af96-80cdfefcb2f6">
+			<Attribute uuid="92ca81cb-c759-4384-9549-da93524caf36">
 				<Properties>
-					<Name>Покупатель</Name>
+					<Name>Заказчик</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Покупатель</v8:content>
+							<v8:content>Заказчик</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -124,20 +124,20 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="6fab6dd6-1786-4a2e-90a9-54b990d0275b">
+			<Attribute uuid="f154892b-bccf-48ff-9759-e6d2447c2dee">
 				<Properties>
-					<Name>ДокументОбОтгрузке</Name>
+					<Name>НомерДокумента</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Документ об отгрузке</v8:content>
+							<v8:content>Номер документа</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
+							<v8:Length>50</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -168,23 +168,23 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
-			<TabularSection uuid="9ca27102-61f6-493f-84c9-21ec515e03aa">
+			<TabularSection uuid="d543ae4a-1f60-478d-add7-04f96001356f">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.Реализация.Товары" category="TabularSection">
-						<xr:TypeId>0cc37285-8f20-4def-aef7-1ecfa314caa8</xr:TypeId>
-						<xr:ValueId>46451187-074e-4138-b9e7-f5c9928671cb</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSection.ОказаниеУслуг.Услуги" category="TabularSection">
+						<xr:TypeId>99158dd4-b504-4143-9627-85942cdc19be</xr:TypeId>
+						<xr:ValueId>75422fea-54fb-41ae-8182-86ffb58b0c49</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.Реализация.Товары" category="TabularSectionRow">
-						<xr:TypeId>cf43b959-e2e7-4758-855a-663fb688a0e8</xr:TypeId>
-						<xr:ValueId>666568f3-ea3e-449d-b3d0-07b884f58ef6</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОказаниеУслуг.Услуги" category="TabularSectionRow">
+						<xr:TypeId>cb2f5006-955f-41dc-9c40-e4d14a5bc5ed</xr:TypeId>
+						<xr:ValueId>784d9089-d7ae-477b-9b9b-16b8cdb8400b</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>Товары</Name>
+					<Name>Услуги</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Товары</v8:content>
+							<v8:content>Услуги</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -192,18 +192,18 @@
 					<FillChecking>DontCheck</FillChecking>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="37f8a527-f728-4998-a221-d2c8bc3c0366">
+					<Attribute uuid="d6ac9058-5e27-49f7-b620-a54693096a08">
 						<Properties>
-							<Name>Товар</Name>
+							<Name>Услуга</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Товар</v8:content>
+									<v8:content>Услуга</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.Товары</v8:Type>
+								<v8:Type>cfg:CatalogRef.Услуги</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -215,7 +215,7 @@
 							<ExtendedEdit>false</ExtendedEdit>
 							<MinValue xsi:nil="true"/>
 							<MaxValue xsi:nil="true"/>
-							<FillChecking>ShowError</FillChecking>
+							<FillChecking>DontCheck</FillChecking>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks/>
 							<ChoiceParameters/>
@@ -229,7 +229,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="3aebaa5a-583a-4aeb-bf6d-0f1d1b741465">
+					<Attribute uuid="f10df561-2c2b-4d62-8114-f78855f0eef1">
 						<Properties>
 							<Name>Количество</Name>
 							<Synonym>
@@ -271,7 +271,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="9f8d94f5-bf7b-484d-9482-1cd799fe2e08">
+					<Attribute uuid="a9265881-2858-4395-8690-2014657ad058">
 						<Properties>
 							<Name>Цена</Name>
 							<Synonym>
@@ -313,7 +313,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="e0050cb7-5a29-4330-bf5e-fc490f899f33">
+					<Attribute uuid="617e7368-ca36-4717-b8ab-4a777ed4b53b">
 						<Properties>
 							<Name>Сумма</Name>
 							<Synonym>
@@ -327,7 +327,7 @@
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
 									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:FractionDigits>0</v8:FractionDigits>
 									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 								</v8:NumberQualifiers>
 							</Type>
@@ -358,14 +358,14 @@
 				</ChildObjects>
 			</TabularSection>
 			<Template>Печать</Template>
-			<Command uuid="c95fd592-8f7e-47c2-88ca-4eb8e93f4518">
+			<Command uuid="16e83ac1-5567-41dd-8250-d3262af593c1">
 				<Properties>
 					<Name>Печать</Name>
 					<Synonym/>
 					<Comment/>
 					<Group>FormCommandBarImportant</Group>
 					<CommandParameterType>
-						<v8:Type>cfg:DocumentRef.Реализация</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОказаниеУслуг</v8:Type>
 					</CommandParameterType>
 					<ParameterUseMode>Multiple</ParameterUseMode>
 					<ModifiesData>false</ModifiesData>
