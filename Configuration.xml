@@ -248,11 +248,20 @@
 			<Subsystem>МиниСклад</Subsystem>
 			<CommonPicture>ОбщаяКартинка1</CommonPicture>
 			<CommonModule>РаботаСДокументами</CommonModule>
+			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
-			<Catalog>ВидыТоваров</Catalog>
+			<Catalog>Услуги</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
+			<Document>ОказаниеУслуг</Document>
+			<Enum>ВидыТоваров</Enum>
+			<Report>ОборотыПоТоварам</Report>
+			<InformationRegister>ОтпускныеЦены</InformationRegister>
+			<InformationRegister>ЗакупочныеЦены</InformationRegister>
+			<InformationRegister>ЦеныНаУслуги</InformationRegister>
+			<AccumulationRegister>Остатки</AccumulationRegister>
+			<AccumulationRegister>ПродажиУслуг</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
