@@ -35,6 +35,7 @@
 		</InputField>
 		<Table name="Услуги" id="13">
 			<Representation>List</Representation>
+			<Footer>true</Footer>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
@@ -122,6 +123,7 @@
 					<DataPath>Объект.Услуги.Сумма</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>Объект.Услуги.TotalСумма</FooterDataPath>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="УслугиСуммаКонтекстноеМеню" id="45"/>
 					<ExtendedTooltip name="УслугиСуммаРасширеннаяПодсказка" id="46"/>

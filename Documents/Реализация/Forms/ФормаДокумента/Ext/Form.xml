@@ -3,7 +3,16 @@
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОтчетОстаткиНаДатуОстаткиТовара" id="41">
+				<Type>CommandBarButton</Type>
+				<CommandName>Report.ОстаткиНаДату.Command.ОстаткиТовара</CommandName>
+				<DataPath>Items.Товары.CurrentData.Товар</DataPath>
+				<ExtendedTooltip name="ФормаОтчетОстаткиНаДатуОстаткиТовараРасширеннаяПодсказка" id="42"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -35,6 +44,9 @@
 		</InputField>
 		<Table name="Товары" id="13">
 			<Representation>List</Representation>
+			<Footer>true</Footer>
+			<HorizontalLines>false</HorizontalLines>
+			<VerticalLines>false</VerticalLines>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
@@ -108,6 +120,7 @@
 					<DataPath>Объект.Товары.Сумма</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>Объект.Товары.TotalСумма</FooterDataPath>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="39"/>
 					<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="40"/>
