@@ -247,6 +247,8 @@
 			<Language>Русский</Language>
 			<Subsystem>МиниСклад</Subsystem>
 			<CommonPicture>ОбщаяКартинка1</CommonPicture>
+			<CommonPicture>Ветис</CommonPicture>
+			<FilterCriterion>ПродажаТовара</FilterCriterion>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<Catalog>Товары</Catalog>
