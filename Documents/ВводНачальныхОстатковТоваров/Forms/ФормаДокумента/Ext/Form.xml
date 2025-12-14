@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ДляНомераИДаты" id="47">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Для номера и даты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+			<ExtendedTooltip name="ДляНомераИДатыРасширеннаяПодсказка" id="48"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ДвиженияОстатки" id="49">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.RegisterRecords.Остатки</DataPath>
+			<CurrentRowUse>Choice</CurrentRowUse>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ДвиженияОстаткиКонтекстноеМеню" id="50"/>
+			<AutoCommandBar name="ДвиженияОстаткиКоманднаяПанель" id="51"/>
+			<ExtendedTooltip name="ДвиженияОстаткиРасширеннаяПодсказка" id="52"/>
+			<SearchStringAddition name="ДвиженияОстаткиСтрокаПоиска" id="53">
+				<AdditionSource>
+					<Item>ДвиженияОстатки</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДвиженияОстаткиСтрокаПоискаКонтекстноеМеню" id="54"/>
+				<ExtendedTooltip name="ДвиженияОстаткиСтрокаПоискаРасширеннаяПодсказка" id="55"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДвиженияОстаткиСостояниеПросмотра" id="56">
+				<AdditionSource>
+					<Item>ДвиженияОстатки</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДвиженияОстаткиСостояниеПросмотраКонтекстноеМеню" id="57"/>
+				<ExtendedTooltip name="ДвиженияОстаткиСостояниеПросмотраРасширеннаяПодсказка" id="58"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДвиженияОстаткиУправлениеПоиском" id="59">
+				<AdditionSource>
+					<Item>ДвиженияОстатки</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДвиженияОстаткиУправлениеПоискомКонтекстноеМеню" id="60"/>
+				<ExtendedTooltip name="ДвиженияОстаткиУправлениеПоискомРасширеннаяПодсказка" id="61"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnChange">ДвиженияОстаткиПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<InputField name="ДвиженияОстаткиНомерСтроки" id="62">
+					<DataPath>Объект.RegisterRecords.Остатки.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиНомерСтрокиКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="ДвиженияОстаткиНомерСтрокиРасширеннаяПодсказка" id="64"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиПериод" id="65">
+					<DataPath>Объект.RegisterRecords.Остатки.Period</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиПериодКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="ДвиженияОстаткиПериодРасширеннаяПодсказка" id="67"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиВидДвижения" id="68">
+					<DataPath>Объект.RegisterRecords.Остатки.RecordType</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиВидДвиженияКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="ДвиженияОстаткиВидДвиженияРасширеннаяПодсказка" id="70"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиТовар" id="71">
+					<DataPath>Объект.RegisterRecords.Остатки.Товар</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиТоварКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="ДвиженияОстаткиТоварРасширеннаяПодсказка" id="73"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиКоличество" id="77">
+					<DataPath>Объект.RegisterRecords.Остатки.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиКоличествоКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="ДвиженияОстаткиКоличествоРасширеннаяПодсказка" id="79"/>
+					<Events>
+						<Event name="OnChange">ДвиженияОстаткиКоличествоПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ДвиженияОстаткиЦена" id="80">
+					<DataPath>Объект.RegisterRecords.Остатки.Цена</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиЦенаКонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="ДвиженияОстаткиЦенаРасширеннаяПодсказка" id="82"/>
+					<Events>
+						<Event name="OnChange">ДвиженияОстаткиЦенаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ДвиженияОстаткиСумма" id="83">
+					<DataPath>Объект.RegisterRecords.Остатки.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиСуммаКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="ДвиженияОстаткиСуммаРасширеннаяПодсказка" id="85"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Table name="ДвиженияОстаткиТоваровПоПартиям" id="89">
+			<Visible>false</Visible>
+			<UserVisible>
+				<xr:Common>false</xr:Common>
+			</UserVisible>
+			<Enabled>false</Enabled>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.RegisterRecords.ОстаткиТоваровПоПартиям</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ДвиженияОстаткиТоваровПоПартиямКонтекстноеМеню" id="90"/>
+			<AutoCommandBar name="ДвиженияОстаткиТоваровПоПартиямКоманднаяПанель" id="91"/>
+			<ExtendedTooltip name="ДвиженияОстаткиТоваровПоПартиямРасширеннаяПодсказка" id="92"/>
+			<SearchStringAddition name="ДвиженияОстаткиТоваровПоПартиямСтрокаПоиска" id="93">
+				<AdditionSource>
+					<Item>ДвиженияОстаткиТоваровПоПартиям</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДвиженияОстаткиТоваровПоПартиямСтрокаПоискаКонтекстноеМеню" id="94"/>
+				<ExtendedTooltip name="ДвиженияОстаткиТоваровПоПартиямСтрокаПоискаРасширеннаяПодсказка" id="95"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДвиженияОстаткиТоваровПоПартиямСостояниеПросмотра" id="96">
+				<AdditionSource>
+					<Item>ДвиженияОстаткиТоваровПоПартиям</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДвиженияОстаткиТоваровПоПартиямСостояниеПросмотраКонтекстноеМеню" id="97"/>
+				<ExtendedTooltip name="ДвиженияОстаткиТоваровПоПартиямСостояниеПросмотраРасширеннаяПодсказка" id="98"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДвиженияОстаткиТоваровПоПартиямУправлениеПоиском" id="99">
+				<AdditionSource>
+					<Item>ДвиженияОстаткиТоваровПоПартиям</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДвиженияОстаткиТоваровПоПартиямУправлениеПоискомКонтекстноеМеню" id="100"/>
+				<ExtendedTooltip name="ДвиженияОстаткиТоваровПоПартиямУправлениеПоискомРасширеннаяПодсказка" id="101"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ДвиженияОстаткиТоваровПоПартиямНомерСтроки" id="102">
+					<DataPath>Объект.RegisterRecords.ОстаткиТоваровПоПартиям.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиТоваровПоПартиямНомерСтрокиКонтекстноеМеню" id="103"/>
+					<ExtendedTooltip name="ДвиженияОстаткиТоваровПоПартиямНомерСтрокиРасширеннаяПодсказка" id="104"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиТоваровПоПартиямПериод" id="105">
+					<DataPath>Объект.RegisterRecords.ОстаткиТоваровПоПартиям.Period</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиТоваровПоПартиямПериодКонтекстноеМеню" id="106"/>
+					<ExtendedTooltip name="ДвиженияОстаткиТоваровПоПартиямПериодРасширеннаяПодсказка" id="107"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиТоваровПоПартиямВидДвижения" id="108">
+					<DataPath>Объект.RegisterRecords.ОстаткиТоваровПоПартиям.RecordType</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиТоваровПоПартиямВидДвиженияКонтекстноеМеню" id="109"/>
+					<ExtendedTooltip name="ДвиженияОстаткиТоваровПоПартиямВидДвиженияРасширеннаяПодсказка" id="110"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиТоваровПоПартиямТовар" id="111">
+					<DataPath>Объект.RegisterRecords.ОстаткиТоваровПоПартиям.Товар</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиТоваровПоПартиямТоварКонтекстноеМеню" id="112"/>
+					<ExtendedTooltip name="ДвиженияОстаткиТоваровПоПартиямТоварРасширеннаяПодсказка" id="113"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиТоваровПоПартиямПартия" id="114">
+					<DataPath>Объект.RegisterRecords.ОстаткиТоваровПоПартиям.Партия</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиТоваровПоПартиямПартияКонтекстноеМеню" id="115"/>
+					<ExtendedTooltip name="ДвиженияОстаткиТоваровПоПартиямПартияРасширеннаяПодсказка" id="116"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиТоваровПоПартиямОстатокТоваровВПартии" id="117">
+					<DataPath>Объект.RegisterRecords.ОстаткиТоваровПоПартиям.ОстатокТоваровВПартии</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиТоваровПоПартиямОстатокТоваровВПартииКонтекстноеМеню" id="118"/>
+					<ExtendedTooltip name="ДвиженияОстаткиТоваровПоПартиямОстатокТоваровВПартииРасширеннаяПодсказка" id="119"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиТоваровПоПартиямОбщаяСтоимостьОстаткаПартии" id="120">
+					<DataPath>Объект.RegisterRecords.ОстаткиТоваровПоПартиям.ОбщаяСтоимостьОстаткаПартии</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиТоваровПоПартиямОбщаяСтоимостьОстаткаПартииКонтекстноеМеню" id="121"/>
+					<ExtendedTooltip name="ДвиженияОстаткиТоваровПоПартиямОбщаяСтоимостьОстаткаПартииРасширеннаяПодсказка" id="122"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ВводНачальныхОстатковТоваров</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.Остатки.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>

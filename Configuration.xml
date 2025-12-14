@@ -248,9 +248,17 @@
 			<Subsystem>МиниСклад</Subsystem>
 			<CommonPicture>ОбщаяКартинка1</CommonPicture>
 			<CommonPicture>Ветис</CommonPicture>
+			<Role>Администратор</Role>
+			<Role>Менеджер</Role>
+			<Role>Кладовщик</Role>
+			<Role>Гость</Role>
 			<FilterCriterion>ПродажаТовара</FilterCriterion>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
+			<CommonModule>РегламентныеПроцедуры</CommonModule>
+			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
+			<ScheduledJob>СлияниеИндексов</ScheduledJob>
+			<ScheduledJob>РегламентДаша</ScheduledJob>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Услуги1С</Catalog>
@@ -258,6 +266,7 @@
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
 			<Document>КоммерческоеПредложение</Document>
+			<Document>ВводНачальныхОстатковТоваров</Document>
 			<Enum>ВидыТоваров</Enum>
 			<Enum>ЕдиницыИзмерения</Enum>
 			<Report>ОборотыПоТоварам</Report>
@@ -265,6 +274,7 @@
 			<Report>ЦенаЗакупкиТовараВоВремени</Report>
 			<InformationRegister>ОтпускныеЦены</InformationRegister>
 			<InformationRegister>ЗакупочныеЦены</InformationRegister>
+			<InformationRegister>ЛучшийТоварПоРегламентномуЗаданию</InformationRegister>
 			<AccumulationRegister>Остатки</AccumulationRegister>
 			<AccumulationRegister>СтоимостьТоваров</AccumulationRegister>
 			<AccumulationRegister>ПродажиПоСреднейСебестоимости</AccumulationRegister>
