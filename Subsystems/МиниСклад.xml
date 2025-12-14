@@ -39,6 +39,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.КоммерческоеПредложение</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Ветис</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FilterCriterion.ПродажаТовара</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВводНачальныхОстатковТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЛучшийТоварПоРегламентномуЗаданию</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

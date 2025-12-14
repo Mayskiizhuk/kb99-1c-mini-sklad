@@ -16,6 +16,11 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Document.ВводНачальныхОстатковТоваров.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="InformationRegister.ЗакупочныеЦены.StandardCommand.Create">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -93,6 +98,9 @@
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="Catalog.Услуги1С.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ВводНачальныхОстатковТоваров.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 	</CommandsOrder>

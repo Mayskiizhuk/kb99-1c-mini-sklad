@@ -110,6 +110,13 @@
 				</InputField>
 				<InputField name="ТоварыЦена" id="35">
 					<DataPath>Объект.Товары.Цена</DataPath>
+					<UserVisible>
+						<xr:Common>true</xr:Common>
+						<xr:Value name="Role.Администратор">true</xr:Value>
+						<xr:Value name="Role.Менеджер">true</xr:Value>
+						<xr:Value name="Role.Кладовщик">false</xr:Value>
+						<xr:Value name="Role.Гость">false</xr:Value>
+					</UserVisible>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="36"/>
@@ -120,6 +127,13 @@
 				</InputField>
 				<InputField name="ТоварыСумма" id="38">
 					<DataPath>Объект.Товары.Сумма</DataPath>
+					<UserVisible>
+						<xr:Common>true</xr:Common>
+						<xr:Value name="Role.Администратор">true</xr:Value>
+						<xr:Value name="Role.Менеджер">true</xr:Value>
+						<xr:Value name="Role.Кладовщик">false</xr:Value>
+						<xr:Value name="Role.Гость">false</xr:Value>
+					</UserVisible>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<FooterDataPath>Объект.Товары.TotalСумма</FooterDataPath>
