@@ -195,6 +195,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.КурсыВалютКРублю</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ЗакупочныеЦены.Resource.Цена</name>
 		<right>
 			<name>View</name>
@@ -496,6 +507,17 @@
 		</right>
 		<right>
 			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Валюты</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

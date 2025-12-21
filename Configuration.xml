@@ -255,26 +255,35 @@
 			<FilterCriterion>ПродажаТовара</FilterCriterion>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
-			<CommonModule>РегламентныеПроцедуры</CommonModule>
-			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
-			<ScheduledJob>СлияниеИндексов</ScheduledJob>
-			<ScheduledJob>РегламентДаша</ScheduledJob>
+			<CommonModule>Обмен</CommonModule>
+			<CommonModule>JSONОбъекты</CommonModule>
+			<CommonModule>ЗагрузкаКурсовВалют</CommonModule>
+			<CommonModule>ЗаписатьДанныеВXMLФайл</CommonModule>
+			<ExchangePlan>Филиалы</ExchangePlan>
+			<HTTPService>ОсновнойHTTPСервис</HTTPService>
+			<ScheduledJob>ОбновлениеКурсовВалют</ScheduledJob>
+			<ScheduledJob>ЗаписатьОстаткиВФайл</ScheduledJob>
+			<ScheduledJob>ЗаписьКурсовВалютВСправочник</ScheduledJob>
+			<Constant>ПрефиксНумерации</Constant>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Услуги1С</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Catalog>Валюты</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
 			<Document>КоммерческоеПредложение</Document>
 			<Document>ВводНачальныхОстатковТоваров</Document>
+			<Document>ТестовыйДокумент</Document>
 			<Enum>ВидыТоваров</Enum>
 			<Enum>ЕдиницыИзмерения</Enum>
 			<Report>ОборотыПоТоварам</Report>
 			<Report>ОстаткиНаДату</Report>
 			<Report>ЦенаЗакупкиТовараВоВремени</Report>
+			<DataProcessor>ОбменДанными</DataProcessor>
 			<InformationRegister>ОтпускныеЦены</InformationRegister>
 			<InformationRegister>ЗакупочныеЦены</InformationRegister>
-			<InformationRegister>ЛучшийТоварПоРегламентномуЗаданию</InformationRegister>
+			<InformationRegister>КурсыВалютКРублю</InformationRegister>
 			<AccumulationRegister>Остатки</AccumulationRegister>
 			<AccumulationRegister>СтоимостьТоваров</AccumulationRegister>
 			<AccumulationRegister>ПродажиПоСреднейСебестоимости</AccumulationRegister>

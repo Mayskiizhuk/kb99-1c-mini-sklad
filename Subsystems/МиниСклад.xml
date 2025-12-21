@@ -40,7 +40,17 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Ветис</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FilterCriterion.ПродажаТовара</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВводНачальныхОстатковТоваров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЛучшийТоварПоРегламентномуЗаданию</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПрефиксНумерации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменДанными</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Филиалы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.ОсновнойHTTPСервис</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ТестовыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">aedaff1f-cf7c-49cf-9e75-618ca56671af</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Валюты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыВалютКРублю</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ЗаписатьОстаткиВФайл</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ОбновлениеКурсовВалют</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ЗаписьКурсовВалютВСправочник</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

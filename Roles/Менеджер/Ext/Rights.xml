@@ -265,6 +265,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.КурсыВалютКРублю</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>AccumulationRegister.ПродажиПоФИФО</name>
 		<right>
 			<name>Read</name>
@@ -849,9 +860,9 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.ОборотыПоТоварам</name>
+		<name>Catalog.Валюты</name>
 		<right>
-			<name>Use</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -860,61 +871,13 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ЛучшийТоварПоРегламентномуЗаданию</name>
+		<name>Report.ОборотыПоТоварам</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
